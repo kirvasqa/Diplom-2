@@ -1,0 +1,17 @@
+Response Status Code: 200
+Headers: Date=Mon, 02 Dec 2024 16:21:42 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+X-Powered-By=Express
+Access-Control-Allow-Origin=*
+ETag=W/"7e-NHuqRGB0/SFDjX/pboszWXbDfo8"
+CF-Cache-Status=DYNAMIC
+Report-To={"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=QPIkRcJBc%2Bpx7v9PKU2kdVX3cexlRYfksaQEXdKdODi3JsngB%2BTCFq%2B4Y8L%2FUpVjPaJM%2BUhwK25BeF3RHZCMH436dt9hB7e7qCFMN4MFcaEVwr7Ei5KRmh2AHlMDkCP4Dv6MLB1k9hXcR7%2BJP4IeJ6%2B%2FmEM%3D"}],"group":"cf-nel","max_age":604800}
+NEL={"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server=cloudflare
+CF-RAY=8ebca6cc6f42f5cb-AMS
+Content-Encoding=gzip
+alt-svc=h3=":443"; ma=86400
+server-timing=cfL4;desc="?proto=TCP&rtt=66885&min_rtt=64480&rtt_var=17533&sent=8&recv=7&lost=0&retrans=0&sent_bytes=3124&recv_bytes=897&delivery_rate=56331&cwnd=254&unsent_bytes=0&cid=884836824c516396&ts=349&x=0"
+Body: {"success":true,"name":"Люминесцентный space флюоресцентный бургер","order":{"number":2223}}

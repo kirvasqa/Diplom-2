@@ -1,0 +1,16 @@
+Response Status Code: 400
+Headers: Date=Mon, 02 Dec 2024 16:21:48 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=61
+Connection=keep-alive
+X-Powered-By=Express
+Access-Control-Allow-Origin=*
+ETag=W/"3d-2OjyVsQbcrSKTjJtjBJ5FY7GEPQ"
+CF-Cache-Status=DYNAMIC
+Report-To={"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=ULfANQxTxu2af8iqPXxzBiTwm4tVopO34XvTDtO%2BujalbDJne%2BMKDUa9KNagPyy8Bu1IVM24fr0sg63dQZw9PWqEQ%2FW8%2BReJQaEd85YRkBv5ePQmsFl8XOy4AjEuAWLqhTYtS9FEYmtngfPTAU78ogOYfzs%3D"}],"group":"cf-nel","max_age":604800}
+NEL={"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server=cloudflare
+CF-RAY=8ebca6f36d09f11d-DME
+alt-svc=h3=":443"; ma=86400
+server-timing=cfL4;desc="?proto=TCP&rtt=411454&min_rtt=407480&rtt_var=122295&sent=10&recv=8&lost=0&retrans=1&sent_bytes=3174&recv_bytes=995&delivery_rate=9998&cwnd=253&unsent_bytes=0&cid=4d59cdeaf5031971&ts=2509&x=0"
+Body: {"success":false,"message":"Ingredient ids must be provided"}

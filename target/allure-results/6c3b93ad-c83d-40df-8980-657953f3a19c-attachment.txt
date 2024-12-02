@@ -1,0 +1,18 @@
+Response Status Code: 200
+Headers: Date=Mon, 02 Dec 2024 16:22:14 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+X-Powered-By=Express
+Access-Control-Allow-Origin=*
+authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NGRkZWI2OWVkMjgwMDAxYjUyY2Y3OSIsImlhdCI6MTczMzE1NjUzNCwiZXhwIjoxNzMzMTU3NzM0fQ.DDRGLbI1M8pZTalID1Wzeju1t7iqaUx_rjqXCmY16gk
+ETag=W/"16e-Wg1Qwx3TJKz1ci2Ffzqbmugm3S8"
+CF-Cache-Status=DYNAMIC
+Report-To={"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=CSH2kev1KgkD2nirQV08%2FIF5X%2F2E2EQd460FLE1Diu7zSo5mgL%2B%2BAsYM2W9%2B7bj2bSv7MXp8ujOS6o84KjV%2Bow9MqR6Xr7UfV6BjBnKcHGCSlxeWqqpekNzBu94Gmou%2BDZsnK9nhC9SEjD3PA5anZi25EOM%3D"}],"group":"cf-nel","max_age":604800}
+NEL={"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server=cloudflare
+CF-RAY=8ebca795aa1a7853-CDG
+Content-Encoding=gzip
+alt-svc=h3=":443"; ma=86400
+server-timing=cfL4;desc="?proto=TCP&rtt=67950&min_rtt=67081&rtt_var=15492&sent=8&recv=7&lost=0&retrans=0&sent_bytes=3124&recv_bytes=860&delivery_rate=59820&cwnd=253&unsent_bytes=0&cid=2dcefb9efc4f44ae&ts=571&x=0"
+Body: {"success":true,"user":{"email":"sfjiwdyp@yandex.ru","name":"BgRXDUqyV"},"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NGRkZWI2OWVkMjgwMDAxYjUyY2Y3OSIsImlhdCI6MTczMzE1NjUzNCwiZXhwIjoxNzMzMTU3NzM0fQ.DDRGLbI1M8pZTalID1Wzeju1t7iqaUx_rjqXCmY16gk","refreshToken":"555ec22a9696aa13036c6e531fcdcd9ce07c2b36f8333cc5f66e8f06f2db35a03983c2098e525500"}

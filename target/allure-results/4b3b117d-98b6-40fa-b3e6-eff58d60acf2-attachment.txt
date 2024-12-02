@@ -1,0 +1,17 @@
+Response Status Code: 200
+Headers: Date=Mon, 02 Dec 2024 16:21:55 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+X-Powered-By=Express
+Access-Control-Allow-Origin=*
+ETag=W/"657-A1eB22pZS3kTh8T9T9upBQfsZFo"
+CF-Cache-Status=DYNAMIC
+Report-To={"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=BvZXFg4T9bws5We7Ta0OrFhy9UA6dP9e%2BzmdetTP7si2R5F%2Bas9mBLr%2BKAiNWdw1WMxNRsEJ4OrRej2auk6C4hIcGJQwhd9JGq%2FFC0CRYyWTZVuVOvNJP9xEWY99sss6tHeEWDgvdKeRvhk9gUXnFizcFZg%3D"}],"group":"cf-nel","max_age":604800}
+NEL={"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server=cloudflare
+CF-RAY=8ebca7119ed5ed1a-MXP
+Content-Encoding=gzip
+alt-svc=h3=":443"; ma=86400
+server-timing=cfL4;desc="?proto=TCP&rtt=77513&min_rtt=72668&rtt_var=21779&sent=8&recv=7&lost=0&retrans=0&sent_bytes=3124&recv_bytes=1075&delivery_rate=42632&cwnd=253&unsent_bytes=0&cid=2a6c44c670523e30&ts=2069&x=0"
+Body: {"success":true,"name":"Фалленианский space краторный бургер","order":{"ingredients":[{"_id":"61c0c5a71d1f82001bdaaa6c","name":"Краторная булка N-200i","type":"bun","proteins":80,"fat":24,"carbohydrates":53,"calories":420,"price":1255,"image":"https://code.s3.yandex.net/react/code/bun-02.png","image_mobile":"https://code.s3.yandex.net/react/code/bun-02-mobile.png","image_large":"https://code.s3.yandex.net/react/code/bun-02-large.png","__v":0},{"_id":"61c0c5a71d1f82001bdaaa77","name":"Плоды Фалленианского дерева","type":"main","proteins":20,"fat":5,"carbohydrates":55,"calories":77,"price":874,"image":"https://code.s3.yandex.net/react/code/sp_1.png","image_mobile":"https://code.s3.yandex.net/react/code/sp_1-mobile.png","image_large":"https://code.s3.yandex.net/react/code/sp_1-large.png","__v":0},{"_id":"61c0c5a71d1f82001bdaaa73","name":"Соус фирменный Space Sauce","type":"sauce","proteins":50,"fat":22,"carbohydrates":11,"calories":14,"price":80,"image":"https://code.s3.yandex.net/react/code/sauce-04.png","image_mobile":"https://code.s3.yandex.net/react/code/sauce-04-mobile.png","image_large":"https://code.s3.yandex.net/react/code/sauce-04-large.png","__v":0}],"_id":"674ddea19ed280001b52cf6f","owner":{"name":"3MKTtr9Ia","email":"aqpyfcox@yandex.ru","createdAt":"2024-12-02T16:21:52.452Z","updatedAt":"2024-12-02T16:21:52.452Z"},"status":"done","name":"Фалленианский space краторный бургер","createdAt":"2024-12-02T16:21:53.571Z","updatedAt":"2024-12-02T16:21:54.638Z","number":159666,"price":2209}}

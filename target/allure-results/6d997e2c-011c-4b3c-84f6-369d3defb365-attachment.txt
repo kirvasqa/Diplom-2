@@ -1,0 +1,16 @@
+Response Status Code: 202
+Headers: Date=Mon, 02 Dec 2024 16:22:25 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=54
+Connection=keep-alive
+X-Powered-By=Express
+Access-Control-Allow-Origin=*
+ETag=W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+CF-Cache-Status=DYNAMIC
+Report-To={"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=MPGKOE9zU7ZjkrQdKiYVkk%2FQzCqL%2F6j0Ph7H1R3%2ByYtlCysaaMVSwtEf87K%2BZEnYEf%2BR3%2Fze4WdYfJhaee%2FvGPacp5mkg35pQklC%2FS6Q9Lr5wJTw439MEnZm3xKSVAdFETbfLy2D68dfKgcmB0%2BoWhAM4%2FI%3D"}],"group":"cf-nel","max_age":604800}
+NEL={"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server=cloudflare
+CF-RAY=8ebca7d36c20153a-CDG
+alt-svc=h3=":443"; ma=86400
+server-timing=cfL4;desc="?proto=TCP&rtt=71130&min_rtt=70140&rtt_var=16312&sent=8&recv=7&lost=0&retrans=0&sent_bytes=3124&recv_bytes=930&delivery_rate=56875&cwnd=253&unsent_bytes=0&cid=79efb8ad20cd12f3&ts=730&x=0"
+Body: {"success":true,"message":"User successfully removed"}
