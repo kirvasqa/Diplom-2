@@ -55,7 +55,7 @@ public class UserDataUpdateTest extends BaseTest {
         updatedData.put("name", "New Name");
 
         Response updateResponse = UserUtils.updateUser(null, updatedData); // Передаем null вместо токена
-        checkClientErrorResponse(updateResponse, 401, "You should be authorised");// Ожидаем статус 401
+        checkClientErrorResponse(updateResponse, 401, "You should be authorised");
         logResponse(updateResponse);
     }
 

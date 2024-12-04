@@ -19,17 +19,6 @@ public class OrderUtils {
         this.ingredientsList = ingredients;
         this.random = new Random();
     }
-    public String getRequestBody(String bearerToken) {
-        // Создание запроса (или используйте существующий код создание запроса)
-        // Здесь нужно собрать данные в формате JSON или в том виде, в котором вы отправляете
-        // Этот код зависит от реализации вашего метода createOrder
-        // Примерное тело запрос может выглядеть так:
-
-        Map<String, Object> requestBodyMap = new HashMap<>();
-        requestBodyMap.put("ingredients", ingredientsList.stream().map(Ingredients::get_id).collect(Collectors.toList()));
-        // Используйте библиотеку (например, Gson или Jackson) для конвертации карты в JSON
-        return new Gson().toJson(requestBodyMap);
-    }
 
     @Step("Получение списка ингредиентов")
     public static Response getIngredients() {
@@ -44,22 +33,21 @@ public class OrderUtils {
         List<String> ingredientTypes = Arrays.asList("bun", "main", "sauce");
         List<String> selectedIngredientIds = new ArrayList<>();
 
-        // Выбор случайного ID для каждого типа ингредиента
+
         for (String type : ingredientTypes) {
             selectedIngredientIds.add(getRandomIdByType(type));
         }
 
-        return selectedIngredientIds; // Возвращаем список случайно выбранных ID
+        return selectedIngredientIds;
     }
 
     private String getRandomIdByType(String type) {
-        // Фильтр ингредиентов по типу
         List<String> filteredIds = ingredientsList.stream()
                 .filter(ingredient -> ingredient.getType().equals(type))
                 .map(Ingredients::get_id)
                 .collect(Collectors.toList());
 
-        // Возвращаем случайный ID из отфильтрованного списка
+
         if (!filteredIds.isEmpty()) {
             return filteredIds.get(random.nextInt(filteredIds.size()));
         }
