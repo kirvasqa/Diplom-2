@@ -16,7 +16,6 @@ import java.util.Map;
 
 import static org.hamcrest.CoreMatchers.*;
 import static org.hamcrest.Matchers.empty;
-import static org.junit.Assert.*;
 
 public class OrderForCurrentUserTest extends BaseTest {
     private String bearerToken;

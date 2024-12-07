@@ -45,7 +45,7 @@ public class UserLoginTest extends BaseTest {
 
         Response loginResponse = UserUtils.login(invalidAuthUser);
 
-        checkClientErrorResponse(loginResponse, 403, "email or password are incorrect");
+        checkClientErrorResponse(loginResponse, 401, "email or password are incorrect");
         logResponse(loginResponse);
     }
     @After

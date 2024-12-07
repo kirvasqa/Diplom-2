@@ -84,17 +84,10 @@ public class OrderCreationTest extends BaseTest {
     @DisplayName("Создание заказа без ингредиентов")
     public void createOrderWithoutIngredients() {
 
-        OrderUtils orderUtils = new OrderUtils(null);
-
-
-        String requestBody = orderUtils.createEmptyOrderRequestBody();
-
 
         Response orderResponse = OrderUtils.createOrderRequest(Collections.emptyList(), bearerToken);
 
-
         logResponse(orderResponse);
-
 
         checkClientErrorResponse(orderResponse, 400, "Ingredient ids must be provided");
     }

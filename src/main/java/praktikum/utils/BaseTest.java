@@ -5,16 +5,10 @@ import io.qameta.allure.Step;
 import io.restassured.response.Response;
 import praktikum.models.JsonUserResponse;
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.junit.Assert.assertEquals;
 import static praktikum.utils.UserUtils.gson;
 
 public class BaseTest {
-    @Step("Проверка статус-кода")
-    protected void checkStatusCode(Response response, int expectedStatusCode) {
-        int actualStatusCode = response.statusCode();
-        assertThat(actualStatusCode)
-                .as("Статус-код ответа не соответствует ожидаемому: ожидается " + expectedStatusCode + ", получен " + actualStatusCode)
-                .isEqualTo(expectedStatusCode);
-    }
 
     @Step("Парсинг ответа")
     protected JsonUserResponse parseResponse(Response response) {
@@ -76,6 +70,7 @@ public class BaseTest {
         int statusCode = response.statusCode();
 
         if (statusCode >= 400 && statusCode < 500) {
+            assertEquals("Статус код не соответствуем ожидаемому",expectedStatusCode,statusCode);
             handleClientErrorResponse(response, expectedErrorMessage);
         } else {
             throw new IllegalArgumentException("Статус-код не соответствует ошибке клиента: " + statusCode);
